@@ -7,6 +7,17 @@ public class Student {
 	int age;
 	int[] marks;
 	
+	// Constructor
+	Student(String name, String surname) {
+		this.name = name;
+		this.surname = surname;
+	}
+	
+	// Default constructor
+	Student() {
+		
+	}
+	
 	// Methods
 	
 	int average() {

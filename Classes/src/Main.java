@@ -23,6 +23,10 @@ public class Main {
 		
 		alessandro.marks = new int[] {7, 2, 8, 7};
 		
-		System.out.println("Alessandro marks: " + riccardo.marks[2]);
+		int alessandroMarks = alessandro.average();
+		System.out.println("Alessandro marks: " + alessandroMarks);
+		
+		Student simone = new Student("Simone", "Cragnolini");
+		System.out.println("Simone surname: " + simone.surname);
 	}
 }
