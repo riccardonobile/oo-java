@@ -28,5 +28,10 @@ public class Main {
 		
 		Student simone = new Student("Simone", "Cragnolini");
 		System.out.println("Simone surname: " + simone.surname);
+		
+		Statistics stat = new Statistics();
+		int avgStudenti = stat.average(new Student[] {riccardo, alessandro});
+		System.out.println("Average students: " + avgStudenti);
+		
 	}
 }
