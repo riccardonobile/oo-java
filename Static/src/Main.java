@@ -60,6 +60,7 @@ public class Main {
 		System.out.println("Average (Poli) students: "
 				+ stat2.average(students));
 		System.out.println("Average (Poli) students: "
-				+ avgStudenti3);
+				+ StatisticsStatic.averageS(students));
+		System.out.println("Istances: " + Student.istances);
 	}
 }

@@ -6,17 +6,25 @@ public class Student {
 	String surname;
 	int age;
 	int[] marks;
+	static int istances = 0;
 	
 	// Constructor
 	Student(String name, String surname) {
 		this.name = name;
 		this.surname = surname;
+		count();
 	}
 	
 	// Default constructor
 	Student() {
+		this(null, null);
 	}
 	
+	
+	static int count() {
+		istances += 1;
+		return istances;
+	}
 	// Methods
 	
 	int average() {
