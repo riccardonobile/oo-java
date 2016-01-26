@@ -9,9 +9,7 @@ public class Imprenditori extends Clienti {
 	}
 	
 	Imprenditori(String name, String surname, String cf, long piva, String ragioneSociale, int nFatture) {
-		this.nome = name;
-		this.cognome = surname;
-		this.cf = cf;
+		super(name, surname, cf);
 		this.piva = piva;
 		this.ragioneSociale = ragioneSociale;
 		this.nFatture = nFatture;

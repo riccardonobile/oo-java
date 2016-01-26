@@ -8,9 +8,7 @@ public class LiberiProfessionisti extends Clienti{
 	}
 	
 	LiberiProfessionisti(String name, String surname, String cf, long piva, int nFatture) {
-		this.nome = name;
-		this.cognome = surname;
-		this.cf = cf;
+		super(name, surname, cf);
 		this.piva = piva;
 		this.nFatture = nFatture;
 	}

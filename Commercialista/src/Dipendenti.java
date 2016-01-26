@@ -6,9 +6,7 @@ public class Dipendenti extends Clienti {
 	}
 	
 	Dipendenti(String name, String surname, String cf) {
-		this.nome = name;
-		this.cognome = surname;
-		this.cf = cf;
+		super(name, surname, cf);
 	}
 	
 	public int getParcella() {

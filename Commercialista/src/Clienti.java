@@ -1,8 +1,8 @@
 
-public class Clienti {
-	protected String nome;
-	protected String cognome;
-	protected String cf;
+public abstract class Clienti {
+	private String nome;
+	private String cognome;
+	private String cf;
 	
 	Clienti() {
 		
@@ -38,7 +38,8 @@ public class Clienti {
 		this.cf = cf;
 	}
 	
-	public int getParcella() {
-		return 0;
-	}
+	
+	// Il metodo è astratto, cioè dichiaro il metodo ma non lo implemento (definisco)
+	// La classe deve essere dfinita coma astratta
+	public abstract int getParcella();
 }
