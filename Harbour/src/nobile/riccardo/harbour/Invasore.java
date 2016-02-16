@@ -18,5 +18,4 @@ public abstract class Invasore implements CalcolaIndiceP {
 	public void setModello(String modello) {
 		this.modello = modello;
 	}
-
 }
